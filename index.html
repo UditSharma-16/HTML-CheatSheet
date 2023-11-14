@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Cheat Sheet by Udit Sharma </title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="prism.css">
+    <link rel="icon" type="images/x-icon" href="IMG_20210704_154954_492.jpg">
+    <link rel="stylesheet" href="Responsive.css">
+    <link rel="stylesheet" href="btn_response.css">
+    <script src="prism.js"></script>
+</head>
+
+<body>
+
+
+    <nav class="logo">
+        <div class="photo">
+            <img src="logo.svg" class="image" alt="HTML">
+        </div>
+
+        <div class="content">
+            <H1 class="Domain">This HTML CheatSheet for Geeks from Geeks</H1>
+        </div>
+    </nav>
+
+
+    <div class="container">
+
+        <h1 class="top">HTML Document Sturcture</h1>
+        <p class="bottom">It's a basic template or sturcture of html.</p>
+
+        <h2> BoilerPlate</h2>
+        <pre><code class="language-html">   &lt; !DOCTYPE html &gt;
+    &lt;html lang="en"&gt;
+    &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+         &lt; /--- body --- &gt;       
+    &lt;/body&gt;
+    &lt;/html&gt;</code></pre>
+
+        <h2>HTML Elements</h2>
+        <p>A element is collection of opening tag , closing tag and content in between them. </p>
+
+        <h2>HTML headings</h2>
+        <p>There are 6 heading avaiable in HTML , H1 is biggest amongest all and H6 is smallest one.</p>
+        <pre><code class="language-html">  &lt;h1&gt; heading 1 &lt;/h1&gt;
+  &lt;h2&gt; heading 2 &lt;/h2&gt;
+  &lt;h2&gt; heading 3 &lt;/h2&gt;
+  &lt;h4&gt; heading 4 &lt;/h4&gt;
+  &lt;h5&gt; heading 5 &lt;/h5&gt;
+  &lt;h6&gt; heading 6 &lt;/h6&gt;</code></pre>
+
+        <h2>&lt;p&gt; tag</h2>
+        <pre><code class="language-html">&lt;p&gt; It's a paragarph &lt;/p&gt;</code></pre>
+
+        <h2>&lt;div&gt; tag</h2>
+        <pre><code class="language-html">&lt;div&gt;It's a block level element&lt;/div&gt;</code></pre>
+
+        <h2>&lt;Span&gt; tag </h2>
+        <pre><code class="language-html">&lt;span&gt;It's a inblock level element&lt;/span&gt;</code></pre>
+
+        <h2>&lt;pre&gt; tag</h2>
+        <p> Pre represents preformatted text which is to be presented same as written in the HTML file.</p>
+        <pre><code class="language-html">&lt;pre&gt;           
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odio repellat ut. Voluptatum quaerat similique unde minima fuga? Ipsum, sint.
+                 Lorem ipsum dolor sit amet.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem deleniti totam modi esse, dicta culpa?               
+&lt;/pre&gt;</code></pre>
+
+        <h2>&lt;code&gt;tag</h2>
+        <p>Code tag is used to represents source codes, as preformatted text.</p>
+        <pre><code class="language-html">&lt;code&gt;
+      #include&lt;stdio.h&gt;
+       int main(){
+       printf("Hello World");
+       return 0;
+       }
+       &lt;/code&gt;</code></pre>
+
+        <h2>HTML text formating </h2>
+        <p></p>
+
+        <h2>&lt;i&gt; tag</h2>
+        <pre><code class="language-html">&lt;i&gt; I'm itallic text &lt;/i&gt;</code></pre>
+
+        <h2>&lt;b&gt; tag</h2>
+        <pre><code class="language-html">&lt;b&gt;It's bold text &lt;/b&gt;</code></pre>
+
+        <h2>&lt;u&gt;tag</h2>
+        <pre><code class="language-html">&lt;u&gt;Underline text &lt;/u&gt;</code></pre>
+
+        <h2 class="big_inline">&lt;big&gt;tag</h2> <mark class="big_inline">Deprecated </mark>
+        <pre><code class="language-html"> &lt;big&gt; I'm bigger one by surrounding text&lt;/big&gt;</code></pre>
+
+        <h2>&lt;small&gt; tag</h2>
+        <pre><code class="language-html">&lt;small&gt;  I'm smaller text by one from surrounding &lt;/small&gt; </code></pre>
+
+        <h2>&lt;em&gt;tag</h2>
+        <pre><code class="language-html">&lt;em&gt; Emphasized text &lt;/em&gt;</code></pre>
+
+        <h2>&lt;Strong&gt; tag</h2>
+        <pre><code class="language-html">&lt;strong&gt; Important text &lt;/strong&gt;</code></pre>
+
+        <h2>&lt;Sub&gt; tag</h2>
+        <pre><code class="language-html">&lt;sub&gt; subscript &lt;/sub&gt; </code></pre>
+
+        <h2>&lt;Sup&gt; tag</h2>
+        <pre><code class="language-html">&lt;sup&gt; superscript &lt;/sup&gt; </code></pre>
+
+        <h2>&lt;del&gt;tag</h2>
+        <pre><code class="language-html">&lt;del&gt; HELLO Jerrry&lt;/del&gt</code></pre>
+
+        <h2>&lt;Mark&gt;tag</h2>
+        <pre><code class="language-html">&lt;mark&gt;HELLO WORLD&lt;/mark&gt;</code></pre>
+
+        <h2>&lt;header&gt;tag</h2>
+        <pre><code class="language-html">&lt;header&gt;Header of the website&lt;/header&gt;</code></pre>
+
+        <h2>&lt;footer&gt;tag</h2>
+        <pre><code class="language-html">&lt;footer&gt;&copy 2022 UDS.pvt.cor.&lt;/footer&gt;</code></pre>
+
+        <h2>&lt;section &gt;tag</h2>
+        <pre><code class="language-html">&lt;section&gt;First section of the website. which displayed a specific content&lt;/section&gt;</code></pre>
+
+        <h2>&lt;main&gt;tag</h2>
+        <pre><code class="language-html">&lt;main&gt;Main content of the website&lt;/main&gt;</code></pre>
+
+        <h2>&lt;aside&gt;tag</h2>
+        <pre><code class="language-html">&lt;aside&gt;Side section of the page , where irrevelant content displayed&lt;/aside&gt;</code></pre>
+
+        <h2>Media</h2>
+
+        <h2>&lt;img&gt;tag</h2>
+        <pre><code class="language-html">&lt;img src="https://en.wikipedia.org/wiki/Main_Page" alt=""&gt;</code></pre>
+
+        <h2>&lt;iframe&gt;tag</h2>
+        <pre><code class="language-html">&lt;iframe src="https://en.wikipedia.org/wiki/HTML" frameborder="0"&gt;&lt;/iframe&gt;</code></pre>
+
+        <h2>&lt;video&gt;tag</h2>
+        <pre><code class="language-html">&lt;video src="unstoppable.mp4"&gt;&lt;/video&gt;</code></pre>
+
+        <h2>&lt;audio&gt;tag</h2>
+        <pre><code class="language-html">&lt;audio src="Friends.mp3"&gt;&lt;/audio&gt;</code></pre>
+
+        <h2>&lt;a&gt;tag</h2>
+        <p>Anchor tag defines us hyperlink, it's a clickable text which redirect us to another page.</p>
+        <pre><code class="language-html">&lt;a href="www.RandomSites.com"&gt;&lt;/a&gt;</code></pre>
+
+        <h2>&lt;link &gt; tag</h2>
+        <p>Link tag is used to link internal /external resources , files to your websites. Most probably used to link
+            stylesheets and favicon to your websites.</p>
+        <pre><code class="language-html">&lt;link rel="stylesheet" href="Style.css"&gt;</code></pre>
+
+        <h2>&lt;script &gt; tag</h2>
+        <p>Script tag is used to link javascript files to your websites.</p>
+        <pre><code class="language-html">&lt;script src="index.js"&gt;&lt;/script&gt;</code></pre>
+
+
+
+        <h2>&lt;input&gt;tag</h2>
+        <pre><code class="language-html">&lt;input type="text"&gt;</code></pre>
+
+
+        <h2>&lt;button&gt;tag</h2>
+        <pre><code class="language-html">&lt;button&gt;&lt;/button&gt;</code></pre>
+
+        <h2>&lt;label&gt;tag</h2>
+        <pre><code class="language-html">&lt;label for=""&gt;&lt;/label&gt;</code></pre>
+
+        <h2>&lt;Select&gt; tag</h2>
+        <pre><code class="language-html">&lt;select name="" id=""&gt;&lt;/select&gt;</code></pre>
+
+        <h2>&lt;option&gt; tag</h2>
+        <pre><code class="language-html">&lt;option value=""&gt;&lt;/option&gt;</code></pre>
+
+        <h2>List</h2>
+        <p>List allows web developer to group a related data, list can be numerical , alphabet, roman, dotted , square ,
+            block and many more.</p>
+
+        <h2>&lt;li&gt; tag</h2>
+        <pre><code class="language-html">&lt;li&gt;list items&lt;/li&gt;</code></pre>
+
+        <h2>&lt;ol&gt; tag</h2>
+        <pre><code class="language-html">&lt;ol&gt;
+    &lt;li&gt;Item 1&lt;/li&gt;
+    &lt;li&gt;Item 2 &lt;/li&gt;
+&lt;/ol&gt;</code></pre>
+
+
+        <h2>&lt;ul&gt; tag</h2>
+        <pre><code class="language-html">&lt;ul&gt;
+     &lt;li&gt;object 1&lt;/li&gt;
+     &lt;li&gt;object 2&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+
+
+        <h2>Symbols</h2>
+        <p>There are some symbols not avaiable to type. So, there are some asci code for this symbols.</p>
+
+        <h2>Copyrights Symbol ( &copy; ) </h2>
+        <pre><code class="language-html"></code></pre>
+
+        <h2>Less than </h2>
+        <pre><code class="language-html">&lt;</code></pre>
+
+        <h2>Greater than</h2>
+        <pre><code class="language-html">&gt;</code></pre>
+
+        <h2>Form</h2>
+        <pre id="scroll"><code   class="language-html "> &lt;form action=""&gt;
+ &lt;table&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                 Name:
+            &lt;/td&gt;
+            &lt;td&gt;
+                 &lt;input type="text" placeholder="Name"&gt;
+            &lt;/td&gt;
+         &lt;/tr&gt;
+         &lt;tr&gt;
+            &lt;td&gt;
+                Password:
+            &lt;/td&gt;
+             &lt;td&gt;
+                 &lt;input type="text " placeholder="Password"&gt;
+             &lt;/td&gt;
+         &lt;/tr&gt;    
+         &lt;tr&gt;
+            &lt;td&gt;
+                 Gender : 
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;input type="radio"  name="Gender" value="male"&gt;Male
+                &lt;input type="radio" name="Gender" value="female"&gt;Female
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                 Email Id:
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;input type="text" placeholder="Email Id "&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                 Phone no. : 
+            &lt;/td&gt;
+            &lt;td&gt;
+                &lt;select name="phone no." id="Contact"&gt;
+                &lt;option&gt; value="+91"&gt;+91&lt;/option&gt;
+                &lt;option&gt; value="30"&gt;30&lt;/option&gt;
+                &lt;option&gt; value="502"&gt;502&lt;/option&gt;
+                &lt;option&gt; value="224"&gt;224&lt;/option&gt;
+                &lt;option&gt; value="245"&gt;245&lt;/option&gt;
+                &lt;option&gt; value="509"&gt;509&lt;/option&gt;
+                &lt;option&gt; value="504"&gt;504&lt;/option&gt;
+                &lt;/select&gt;
+                &lt;input type="text" placeholder="941########"&gt;
+            &lt;/td&gt;                      
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;
+                &lt;button&gt; class="btn"&gt;Submit&lt;/button&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+                   
+   &lt;/table&gt;
+   &lt;/form&gt;</code></pre>
+
+
+        <h2>table</h2>
+        <pre id="scroll"><code class="language-html">&lt;table&gt;
+    &lt;caption&gt;Demo Table&lt;/caption&gt;
+    &lt;thead&gt;
+    &lt;tr&gt;
+    &lt;th&gt;Column1&lt;/th&gt;
+    &lt;th colspan="2"&gt;Column2&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;/thead&gt;
+    &lt;tbody&gt;
+    &lt;tr&gt;
+    &lt;td&gt;Data1&lt;/td&gt;
+    &lt;td&gt;Data2&lt;/td&gt;
+    &lt;td&gt;Data2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+    &lt;td&gt;Data1&lt;/td&gt;
+    &lt;td&gt;Data2&lt;/td&gt;
+    &lt;td&gt;Data2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;/tbody&gt;
+    &lt;tfoot&gt;
+    &lt;tr&gt;
+    &lt;td&gt;&nbsp;&lt;/td&gt;
+    &lt;td&gt;Data&lt;/td&gt;
+    &lt;td&gt;Data&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;/tfoot&gt;
+    &lt;/table&gt;</code></pre>
+
+   <button class="btn"><a href="index.pdf" class="btn_link" download="HTML CheatSheet">Download pdf</a></button> 
+
+    </div>
+
+    <footer class="foot">
+        <hr class="hori">
+        <div class="center">
+
+            <span class="shot">
+                <img src="IMG_20210704_154954_492-removebg.png" width="60vh" alt="">
+            </span>
+            <span class="name">Udit Sharma </span>
+            <hr class="vertical">
+            <p class="copy">Copyright &copy; 2022 Flasher.com </p>
+
+        </div>
+    </footer>
+</body>
+
+</html>
