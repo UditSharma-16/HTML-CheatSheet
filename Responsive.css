@@ -1,0 +1,180 @@
+@media only screen and (max-width: 420px) {
+  .container {
+    margin-top: 30px;
+    width: 93%;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+  }
+  .photo {
+    display: none;
+  }
+
+  .Domain {
+    padding: 0px 10px;
+  }
+
+  .top {
+    margin: 12px 0px 0px 0px;
+    font-size: 28px;
+  }
+
+  .bottom {
+    margin: 8px 0px 0px 0px;
+  }
+
+  h2 {
+    margin: 10px 0px;
+  }
+
+  p {
+    margin: 10px 0px;
+  }
+
+  .shot {
+    margin: 20px 0px;
+  }
+
+  .hori {
+    margin: 15px 37px;
+  }
+
+  .center {
+    margin: 15px 0px;
+  }
+
+}
+
+
+
+
+@media only screen and (max-width: 912px) {
+  .container {
+    margin-top: 30px;
+    width: 90%;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .Domain {
+    padding: 0px 10px;
+    font-size: 28px;
+  }
+
+  .top {
+    margin: 15px 0px 0px 0px;
+    font-size: 30px;
+  }
+
+  .bottom {
+    margin: 8px 0px 0px 0px;
+    font-size: 21px;
+  }
+
+  h2 {
+    margin: 13px 0px;
+  }
+
+  p {
+    margin: 13px 0px;
+    font-size: 21px;
+  }
+
+  .shot {
+    margin: 22px 0px;
+  }
+
+  .hori {
+    margin: 15px 37px;
+  }
+
+  .center {
+    margin: 15px 0px;
+  }
+
+  .btn_link{
+    text-decoration: none;
+    color: red;
+  }
+  
+  .btn{
+    width: 8vw;
+    margin: 25px 0px;
+    height: 4vh;
+    border-radius: 18px;
+    border: 2px solid rgb(152, 152, 152);
+  }
+}
+
+
+
+@media only screen and (max-width: 300px) {
+  .container {
+    margin-top: 15px;
+    width: 90%;
+    margin: auto;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .Domain {
+    padding: 0px 10px;
+    font-size: 22px;
+  }
+
+  .top {
+    margin: 10px 0px 0px 0px;
+    font-size: 22px;
+  }
+
+  .bottom {
+    margin: 8px 0px 0px 0px;
+    font-size: 16px;
+  }
+
+  h2 {
+    margin: 7px 0px;
+    font-size: 20px;
+  }
+
+  p {
+    margin: 7px 0px;
+    font-size: 16px;
+  }
+
+  .shot {
+    margin: 18px 0px;
+  }
+
+  .hori {
+    margin: 10px 37px;
+  }
+
+  .center {
+    margin: 10px 0px;
+  }
+  .btn_link{
+    text-decoration: none;
+    color: red;
+  }
+  
+  .btn{
+    width: 8vw;
+    margin: 25px 0px;
+    height: 4vh;
+    border-radius: 18px;
+    border: 2px solid rgb(152, 152, 152);
+  }
+}
+
+
+@media only screen and ( max-width: 1025px){
+
+  .btn{
+    width: 10vw;
+    margin: 25px 0px;
+    height: vh;
+   
+    border-radius: 18px;
+    border: 2px solid rgb(152, 152, 152);
+  }
+
+}

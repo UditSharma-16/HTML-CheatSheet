@@ -1,0 +1,57 @@
+@media only screen and (max-width: 420px){
+.btn{
+    width: 28vw;
+}
+
+.shot{
+    display: flex;
+    align-items: center;
+    width: 36px;
+}
+
+}
+
+
+@media only screen and (width: 820px){
+    .btn{
+        width: 25vw;
+
+    }
+    
+    .btn_link{
+        font-size: 24px;
+    }
+    }
+
+    @media only screen and (width: 768px){
+        .btn{
+            width: 25vw;
+    
+        }
+        
+        .btn_link{
+            font-size: 24px;
+        }
+        }
+
+        @media only screen and (width: 912px){
+            .btn{
+                width: 25vw;
+        
+            }
+            
+            .btn_link{
+                font-size: 24px;
+            }
+            }
+
+            @media only screen and (width: 540px){
+                .btn{
+                    width: 25vw;
+            
+                }
+                
+                .btn_link{
+                    font-size: 18px;
+                }
+                }
